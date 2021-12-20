@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background: rgb(223, 166, 166);
+}
+
+.container{
+   width: 380px;
+   background: #fff;
+   padding: 25px;
+   margin: 100px auto;
+   border-radius: 25px;
+   position: relative;
+}
+
+.title h1{
+    clear: #535274;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.input-fields{
+    padding: 0 2px;
+}
+
+.input-fields items{
+    width: 100%;
+   
+}
+
+/* .input-fields .items .label{
+    display: block;
+    font-size: 1em;
+    color: #ffecb3;
+} */
+
+.label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input{
+    width: 90%;
+    height: 25px;
+}
+
+.items button{
+    font: inherit;
+    cursor: pointer;
+    background: #ec9e5e;
+    border: 1px solid #ec9e5e;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 20px;
+}
+
+.items button:hover{
+    background-color: #460897;
+  border-color: #460897;
+}
+
+.list{
+    width: 470px;
+    background: #fff;
+    padding: 25px;
+    margin: 8px auto;
+    border-radius: 25px;
+    position: relative;
+}
+
+.list li{
+    font-size:large;
+    word-spacing: 7px;
+    font-weight: bold;
+}
+
+.list button{
+    /* margin-right: 10px; */
+    font: inherit;
+    cursor: pointer;
+    background: #9c5eec;
+    border: 1px solid #8a4adf;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 20px;
+}
